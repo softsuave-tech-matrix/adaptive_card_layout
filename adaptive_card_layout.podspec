@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "adaptive_card_layout"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.2"
   spec.summary      = "CardView is a versatile SwiftUI component for displaying a collection of views in a card-like format."
 
   # This description is used to generate tags and improve search results.
@@ -84,7 +84,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source = { :git => "https://github.com/softsuave-tech-matrix/adaptive_card_layout.git", :tag => "1.0.1" }
+  spec.source = { :git => "https://github.com/softsuave-tech-matrix/adaptive_card_layout.git", :tag => "1.0.2" }
   spec.ios.deployment_target = '15.0'
   spec.swift_versions = ['5.0', '5.1', '5.2', '5.3', '5.4', '5.5', '5.6']
 
