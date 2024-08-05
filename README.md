@@ -42,7 +42,7 @@ CardView is a versatile SwiftUI component for displaying a collection of views i
   
 <img width="250" alt="Screenshot 2024-07-09 at 6 42 29 PM" src="https://github.com/softsuave-tech-matrix/adaptive_card_layout/assets/139471661/834dac49-faac-4c7e-8368-e9fb80f0cfdd">
 
-## properties
+## Properties
 - viewsArray: [Binding<[AnyView]>] - An array of views to be displayed.
 - gridView: Binding<Bool> - Whether to display the views in a grid layout or carousel format(horizontal scrolling)
 - scale: Bool - Whether to apply a scaling effect. Default is false.
@@ -55,11 +55,14 @@ CardView is a versatile SwiftUI component for displaying a collection of views i
 - horizontalSpacing: Horizontal spacing between the cards. Default is 10.
 - onTap: ((Int) -> Void)? - An optional closure to handle tap gestures on the views.
 
-## installation
+## Installation
 - Add the package through swift package manager to your project
-- Alternatively you can also install through cocoapods
+  https://swiftpackageindex.com/softsuave-tech-matrix/adaptive_card_layout
 
-## useage
+- Alternatively you can also install through cocoapods
+  pod 'adaptive_card_layout'
+
+## Useage
 
 Step 1:
   - Create a custom view which you want to show in the card
@@ -116,6 +119,19 @@ CardView(viewsArray: $viewsArray, scale: true, frameWidth: 180, frameHeight: 300
 print(indexNo)
 }
 ```
+## Contributing
 
+Contributions are always welcome! For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## Author
+
+- [@softsuave-tech-matrix](https://github.com/softsuave-tech-matrix)
+
+## Feedback
+
+If you have any feedback, please reach out to us at techmatrix@softsuave.com
 
 
